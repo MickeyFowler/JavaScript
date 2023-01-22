@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title> Suits </title>
+		<link rel="stylesheet" href="ShippingPageProperties.css">
+		<script type="text/javascript" src="reaction.js"></script>
+	</head>
+	<body>
+	<h1 class="center"> Suits for any occasion </h1>
+	<br><br>
+	<br><br>
+	<form method="POST" action="cart.php">
+    <h1><span class="center">Shipping and Payment</h1><br> <br> 
+	<div class="center">
+		<p> Please Select which shipping method you would prefer:</p>
+			<input type="radio" id="overnight" name="shipping" value="Overnight">
+			<label for="overnight">Overnight</label><br>
+			<input type="radio" id="priority" name="shipping" value="Priority Mail">
+			<label for="priority">Priority Mail</label><br>  
+			<input type="radio" id="international" name="shipping" value="International">
+			<label for="international">International</label><br>
+			<input type="radio" id="standard" name="shipping" value="Standard">
+			<label for="standard">Standard</label><br><br>
+		<p> Please enter your first and last name.<br />
+		<div class="submit">
+		<form id="myform">
+			<input type="text" name="customer" /> <br /><br>  
+		<p> Please enter your email address.<br />
+			<input type="text" name="email" />  <br /><br>  
+		<p> Please enter full street adress.<br /> 
+			<input type="text" name="address" />  <br /><br>  
+		<p> Please enter phone number.<br /> 
+			<input type="text" id="phone" name="phone" />  <br /> <br />
+		<p> Please your credit card information.<br />
+			<input type="text" id="credit" name="credit" />  <br /> <br /><br> 
+			<input type="submit" id="submit" value="Submit">
+		</form>
+			</span>
+		</div>
+		</div>
+	</form>
+	</body>
+</html>
