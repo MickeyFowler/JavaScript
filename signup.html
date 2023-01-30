@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>signup information</title>
+  <link rel="stylesheet" type="text/css" href="signupstyle.css">
+</head>
+<body>
+  <div class = "middle">
+    <h1>Signup</h1>
+    <form method="POST" action="signupinfo.php"/>
+      <div class = "signup">
+        <span></span>
+        <input type = "text" name="username" placeholder="username" required>
+      </div>
+      <div class = "signup">
+        <span></span>
+        <input type = "password" name="password" placeholder="password"required>
+      </div>
+      <div class = "signup">
+        <span></span>
+        <input type = "password" name="repassword" placeholder="re-enter password"required>
+      </div>
+      <input type="submit" id="submit_button" value="Submit">
+      <div class="exist"><a href="login.html">Already have an account?</a>
+      </div>
+    </form>
+  </body>
+</html>
