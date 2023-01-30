@@ -1,0 +1,164 @@
+body{
+  background-color: grey;
+  background-image: url(mainimage/suitim.jpg);
+  background: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 550px;
+  margin: 0;
+  padding: 0;
+  background-size: 100%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.navbar{
+  width: 100%;
+  margin: auto;
+  padding: 25px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  float: left;
+  width: 120px;
+  padding-left: -10%;
+}
+
+.navbar  li{
+  list-style: none;
+  display: inline-block;
+  margin: 0px 40px;
+}
+.navbar li a{
+  width: 20%;
+  background: #00A0B0;
+  text-decoration: none;
+  color: #0F65A1;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 2px solid;
+}
+.navbar li a:hover{
+  background: #00A0B0;
+  color: #0F65A1;
+  border-color: #00A0B0;
+  transition: .5s;
+}
+.loguser{
+  width: 100%;
+  position: absolute;
+  top: 70%;
+  transform: translateY(-70%);
+  text-align: center;
+  color: #0F65A1;
+}
+.maintext{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #0F65A1;
+}
+
+.maintext h1{
+  font-size: 40px;
+  margin-top: 80px;
+  border: 3px solid #0F65A1;
+  padding: 6px 14px;
+  display: inline-block;
+  color: #0F65A1;
+  background:#00A0B0;
+  border-radius: 30px;
+}
+.logeduser{
+  width: 100%;
+  position: absolute;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+  top: 170%;
+}
+
+button{
+  width: 10%;
+  height: 40px;
+  border: 3px solid;
+  background: #00A0B0;
+  border-radius: 20px;
+  font-size: 20px;
+  color:  #0F65A1;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+}
+button:hover{
+  border-color: #00A0B0;
+  transition: .5s;
+}
+.logout{
+  width: 100%;
+  position: absolute;
+  top: 70%;
+  transform: translateY(-70%);
+  text-align: center;
+  color: #0F65A1;
+}
+
+.container2 {
+  width: 100%;
+  position: absolute;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+  top: 160%;
+}
+
+.container2 h1 span{
+  border: 2px solid #0F65A1;
+  padding: 6px 14px;
+  display: inline-block;
+  color: #0F65A1;
+  background:#00A0B0;
+  border-radius: 30px;
+}
+
+*{
+  box-sizing: border-box;
+}
+.column{
+  object-fit: cover;
+  float: left;
+  width: 25%;
+  padding: 3px;
+  position: relative;
+  bottom: -800px;
+  border: 5px solid #00A0B0;
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  transition: opacity 0.10s;
+  background: black;
+  cursor: pointer;
+}
+.column:hover .overlay{
+  opacity: 0.4;
+}
